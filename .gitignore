@@ -1,1 +1,42 @@
-.vscode
+# Build directories
+build/
+_build/
+out/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.exe
+*.dylib
+*.dll
+
+# Editors
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and misc
+*.log
+*.tmp
+*.bak
+
+# Local config (если появится)
+*.local
+
+
+.cache/
